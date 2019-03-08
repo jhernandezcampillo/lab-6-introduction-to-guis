@@ -6,12 +6,12 @@ Instructor: Dr. Kelvin Bryant ksbryant@ncat.edu
 
 ### Lab Description
 
-This week you will be completing the MP3 application started in earlier labs. You will implement the sortPlayList method and create the main GUI frame pictured to the right using the Swing library. Create a project named lab5gui.
+This week you will be building a GUI for an MP3 Player Application.. You will create the main GUI frame pictured below using the Swing library. Create a project named lab5gui.
 
-If you want to use my PlayList object, you need to download the jar file included in the Lab folder and add it to your project library. You will also have to import the PlayList class using `import lab3p1spr2012_1.PlayList;`.
+You will need to add the jar file included with this repository to your project library in order to use the premade `PlayList` and `Song` objects.. You will also have to import the classes using `import lab3p1spr2012_1.*;`.
 
 #### Playlist
-This class will consists of the following properties: name:String, songs:ArrayList<Song> and creationDate: String. You have already created several methods for this class.
+This class will consists of the following properties: name:String, songs:ArrayList<Song> and creationDate: String. You have already several methods for this class.
 
 #### PlayerFrame
 Use the Netbeans GUI editor to create a JFrame named PlayerFrame by right clicking your package name and selecting new->JFrame Form. Drag and drop the the controls shown in the figure above. The etched squares are JPanels that have their border property set to etched. Add an instance variable of type PlayList to the class. Make sure you right click the controls and give them appropriate variable names. Double clicking the control will add an event handler where you can then insert code to implement the appropriate action. For example, double clicking the “Load List” button should allow the user to select a file and then pass the selected file pathname string to loadPlayList method of the PlayList class.
